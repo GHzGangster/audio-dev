@@ -1,0 +1,149 @@
+@font-face {
+	font-family: 'Anonymous Pro';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../assets/fonts/anonymous-pro-v21-latin-regular.woff2') format('woff2'),
+		url('../assets/fonts/anonymous-pro-v21-latin-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Anonymous Pro';
+	font-style: normal;
+	font-weight: 700;
+	src: local(''),
+		url('../assets/fonts/anonymous-pro-v21-latin-700.woff2') format('woff2'),
+		url('../assets/fonts/anonymous-pro-v21-latin-700.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	src: local(''),
+		url('../assets/fonts/inter-v12-latin-regular.woff2') format('woff2'),
+		url('../assets/fonts/inter-v12-latin-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 500;
+	src: local(''),
+		url('../assets/fonts/inter-v12-latin-500.woff2') format('woff2'),
+		url('../assets/fonts/inter-v12-latin-500.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 600;
+	src: local(''),
+		url('../assets/fonts/inter-v12-latin-600.woff2') format('woff2'),
+		url('../assets/fonts/inter-v12-latin-600.woff') format('woff');
+}
+
+html, body {
+	background-color: #202223;
+	color: #fffdfd;
+	font-family: 'Inter', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+}
+
+::selection {
+	color: #00382F;
+	background-color: #58DBC3;
+}
+
+.header-wrapper {
+	border-color: #333;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+.header {
+	min-height: 64px;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 24px;
+	box-sizing: border-box;
+	display: flex;
+	gap: 12px;
+}
+
+.header-logo {
+	padding: 0 12px;
+	color: #00344E;
+	background-color: #85CEFF;
+	font-family: 'Anonymous Pro', monospace;
+	font-size: 1.25em;
+	font-weight: 700;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+.header-logo:hover {
+	text-decoration: underline;
+}
+
+.header-links {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 12px;
+}
+
+.header-links a {
+	text-decoration: none;
+	color: #E1E3E1;
+	font-weight: 600;
+}
+
+.header-links a:hover {
+	text-decoration: underline;
+}
+
+.content-wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.content {
+	padding: 48px 24px;
+}
+
+.content-title {
+	font-size: 2.8125em;
+	font-weight: 500;
+	line-height: 1.155;
+	margin-bottom: 24px;
+}
+
+.run-info {
+	margin-top: 1em;
+}
+
+.run-buttons {
+	margin-top: 1em;
+	display: flex;
+	gap: 12px;
+}
+
+.run-buttons button {
+	color: #BFC9C5;
+	background-color: #3F4946;
+	font-family: 'Inter', sans-serif;
+	font-size: 1em;
+	font-weight: 500;
+	border: none;
+	border-radius: 12px;
+	padding: 12px 24px;
+}
+
+.run-buttons button:active {
+	background-color: #3B4442;
+}
